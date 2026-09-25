@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@utility nav-link {
+  @apply text-xs text-black/50 hover:text-black transition-colors;
+}
+
+@utility btn {
+  @apply text-xs rounded-full bg-[#7B91DE] hover:bg-[#7B91DE]/30 tracking-tighter cursor-pointer transition-colors cursor-pointer
+}
+
+@utility btn-signin {
+  @apply rounded-full font-medium text-black/70 hover:text-black;
+}
+
+@utility btn-primary {
+  @apply  px-3 py-1.5 bg-[#7B91DE] text-white;
+}

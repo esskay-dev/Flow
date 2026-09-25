@@ -13,7 +13,7 @@ export default function Navbar() {
   return (
     <header className="sticky top-0 backdrop-blur-3xl z-50 py-4 lg:py-8">
       <div className="container mx-auto px-10">
-        <div className="grid grid-cols-2 lg:grid-cols-3 bg-[#006038]/95 shadow-2xl rounded-full p-2 px-4 md:pr-2 items-center">
+        <div className="grid grid-cols-2 lg:grid-cols-3 bg-[#006038]/95 rounded-full p-2 px-4 md:pr-2 items-center">
           <div className="flex items-center gap-1">
             <Image src={flowImage} alt="Flow logo" className="h-9 w-auto" />
             <div className="text-2xl font-bold text-[#00ef8b]">FLOW</div>
